@@ -1,11 +1,10 @@
-import urllib
+
 
 import sys
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
 import urllib2
-import re
 from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
@@ -17,7 +16,6 @@ if __name__ == '__main__':
     html = response.read()
     soup = BeautifulSoup(html, 'lxml')
     soup_texts = soup.find('div', id = 'book_detail', class_= 'box1').find_next('div')
-    #print soup_texts
     # open file
     f = open('./huaqiangu.txt','w')
     # loop analysis urls
@@ -25,20 +23,16 @@ if __name__ == '__main__':
         if link != '\n':
             print(link.text+':'+link.a.get('href'))
             download_url = link.a.get('href')
-            #link = "http://www.136book.com/huaqiangu/ebqlzd/"
             download_req = urllib2.Request(download_url, headers = head)
             download_response = urllib2.urlopen(download_req)
             download_html = download_response.read()
             download_soup = BeautifulSoup(download_html, 'lxml')
             #print download_soup.get_text()
             download_soup_texts = download_soup.find('div', id = 'content').select("p")
-                #print p.lstrip('<p>')
-            #print download_soup_texts
             # write title
             f.write(link.text + '\n\n')
             # write chapter content
             for p in download_soup_texts:
-                #print p.text
                 f.write(p.text)
                 f.write('\n')
             f.write('\n\n')
