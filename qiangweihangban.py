@@ -8,7 +8,7 @@ import urllib2
 from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
-    url = 'http://www.136book.com/huaqiangu/'
+    url = 'http://www.136book.com/qiangweihangban/'
     head = {}
     head['User-Agent'] = 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19'
     req = urllib2.Request(url, headers = head)
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     soup = BeautifulSoup(html, 'lxml')
     soup_texts = soup.find('div', id = 'book_detail', class_= 'box1').find_next('div')
     # open file
-    f = open('../huaqiangu.txt','w')
+    f = open('../qiangweihangban.txt','w')
     # loop analysis urls
     for link in soup_texts.ol.children:
         if link != '\n':
