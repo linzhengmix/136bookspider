@@ -16,6 +16,6 @@ if __name__ == '__main__':
     soup_texts = soup.find_all('a',target="_blank")
     for i in soup_texts:
         print i.text
-        url = i.get('href')
+        url = i.get('href') #get the urls
         #print url
         download_story(url,i.text)
