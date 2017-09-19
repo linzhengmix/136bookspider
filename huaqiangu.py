@@ -18,7 +18,6 @@ if __name__ == '__main__':
     soup_texts = soup.find('div', id = 'book_detail', class_= 'box1').find_next('div')
     # open file
     f = open('../huaqiangu.txt','w')
-    # loop analysis urls
     for link in soup_texts.ol.children:
         if link != '\n':
             print(link.text+':'+link.a.get('href'))
