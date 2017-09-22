@@ -1,6 +1,8 @@
 # 136bookspider
-use python to crawl 136book
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 
-add some symbles
+## use python to crawl 136book
+
+add some symbols
 :cn:
 :gb:
