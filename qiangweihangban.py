@@ -1,19 +1,18 @@
 
 import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+# reload(sys)
+# sys.setdefaultencoding('utf-8')
 
-import urllib2
+import requests
 from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
-    url = 'http://www.136book.com/qiangweihangban/'
-    head = {}
-    head['User-Agent'] = 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19'
-    req = urllib2.Request(url, headers = head)
-    response = urllib2.urlopen(req)
-    html = response.read()
-    soup = BeautifulSoup(html, 'lxml')
+    url = 'https://www.136book.com/qiangweihangban/'
+    headers = {'User-Agent':'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) \
+    Chrome/18.0.1025.166  Safari/535.19'}
+    response = requests.get(url=url,headers=headers,verify=False)
+    response.text
+    soup = BeautifulSoup(response.text, 'lxml')
     soup_texts = soup.find('div', id = 'book_detail', class_= 'box1').find_next('div')
     # open file
     f = open('../qiangweihangban.txt','w')
@@ -22,10 +21,8 @@ if __name__ == '__main__':
         if link != '\n':
             print(link.text+':'+link.a.get('href'))
             download_url = link.a.get('href')
-            download_req = urllib2.Request(download_url, headers = head)
-            download_response = urllib2.urlopen(download_req)
-            download_html = download_response.read()
-            download_soup = BeautifulSoup(download_html, 'lxml')
+            download_req = requests.get(download_url, headers = headers,verify=False)
+            download_soup = BeautifulSoup(download_req.text, 'lxml')
             #print download_soup.get_text()
             download_soup_texts = download_soup.find('div', id = 'content').select("p")
             # write title
