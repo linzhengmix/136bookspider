@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7516bdb0-70a9-40bc-9153-22c6cc05e25d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/download_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huaqiangu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiangweihangban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getbookname.py" beforeDir="false" afterPath="$PROJECT_DIR$/getbookname.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.download_class">
+  <component name="RunManager" selected="Python.getbookname">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,6 +82,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="getbookname" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="136bookspider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getbookname.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="qiangweihangban" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="136bookspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.getbookname" />
         <item itemvalue="Python.download_class" />
         <item itemvalue="Python.qiangweihangban" />
       </list>
@@ -125,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1505707876993</updated>
       <workItem from="1561009349058" duration="72000" />
-      <workItem from="1598259736532" duration="2509000" />
+      <workItem from="1598259736532" duration="3213000" />
+      <workItem from="1598263851573" duration="175000" />
     </task>
     <servers />
   </component>
@@ -133,38 +155,42 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="170" key="GridCell.Tab.0.bottom" timestamp="1598262029500">
+    <state width="1876" height="341" key="GridCell.Tab.0.bottom" timestamp="1598264026456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598262029500" />
-    <state width="1876" height="170" key="GridCell.Tab.0.center" timestamp="1598262029500">
+    <state width="1876" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598264026456" />
+    <state width="1876" height="341" key="GridCell.Tab.0.center" timestamp="1598264026456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598262029500" />
-    <state width="1876" height="170" key="GridCell.Tab.0.left" timestamp="1598262029500">
+    <state width="1876" height="341" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598264026456" />
+    <state width="1876" height="341" key="GridCell.Tab.0.left" timestamp="1598264026455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598262029500" />
-    <state width="1876" height="170" key="GridCell.Tab.0.right" timestamp="1598262029500">
+    <state width="1876" height="341" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598264026455" />
+    <state width="1876" height="341" key="GridCell.Tab.0.right" timestamp="1598264026456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598262029500" />
-    <state width="1876" height="203" key="GridCell.Tab.1.bottom" timestamp="1598261796261">
+    <state width="1876" height="341" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598264026456" />
+    <state width="1876" height="203" key="GridCell.Tab.1.bottom" timestamp="1598263838997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="203" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598261796261" />
-    <state width="1876" height="203" key="GridCell.Tab.1.center" timestamp="1598261796261">
+    <state width="1876" height="203" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598263838997" />
+    <state width="1876" height="203" key="GridCell.Tab.1.center" timestamp="1598263838997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="203" key="GridCell.Tab.1.center/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598261796261" />
-    <state width="1876" height="203" key="GridCell.Tab.1.left" timestamp="1598261796261">
+    <state width="1876" height="203" key="GridCell.Tab.1.center/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598263838997" />
+    <state width="1876" height="203" key="GridCell.Tab.1.left" timestamp="1598263838997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="203" key="GridCell.Tab.1.left/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598261796261" />
-    <state width="1876" height="203" key="GridCell.Tab.1.right" timestamp="1598261796261">
+    <state width="1876" height="203" key="GridCell.Tab.1.left/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598263838997" />
+    <state width="1876" height="203" key="GridCell.Tab.1.right" timestamp="1598263838997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="203" key="GridCell.Tab.1.right/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598261796261" />
+    <state width="1876" height="203" key="GridCell.Tab.1.right/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598263838997" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1598263827916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598263827916" />
     <state width="968" height="507" key="XDebugger.FullValuePopup" timestamp="1598260214951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,5 +199,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/136bookspider$qiangweihangban.coverage" NAME="qiangweihangban Coverage Results" MODIFIED="1598260478768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/136bookspider$download_class.coverage" NAME="download_class Coverage Results" MODIFIED="1598262029494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/136bookspider$getbookname.coverage" NAME="getbookname Coverage Results" MODIFIED="1598263997483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
