@@ -24,11 +24,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="e2ff264f-9346-4a1b-9407-d51794e811a3" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
-  </component>
   <component name="ProjectId" id="1gXT33B9ecMBNOuPj7b0wiFkh5k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -148,6 +143,7 @@
       <workItem from="1561009349058" duration="72000" />
       <workItem from="1598259736532" duration="3213000" />
       <workItem from="1598263851573" duration="175000" />
+      <workItem from="1598338195773" duration="2459000" />
     </task>
     <servers />
   </component>
@@ -155,6 +151,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1598343127340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-227.1080.1920@0.0.1920.1040" timestamp="1598343127340" />
     <state width="1876" height="341" key="GridCell.Tab.0.bottom" timestamp="1598264026456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
